@@ -1,0 +1,295 @@
+.o {
+    color: aqua;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+    position: static;
+    background-color: blueviolet;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: radial-gradient(#FFBA08, #FAA307, #F48C06, #E85D04, #DC2F02, #D00000, #9D0208, #6A040F, #370617, #03071E);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.profile {
+    border: 0px solid;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: darkviolet;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    background-color: bisque;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 100px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu {
+    z-index: 15;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+.type {
+    float: left;
+    font-family: 'Ma Shan Zheng', cursive;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 20px;
+}
+.type:hover {
+    background-color: darkcyan;
+    color: blanchedalmond !important;
+    border-radius: 10px;
+}
+.ok:hover {
+    background-color: darkcyan;
+    color: blanchedalmond !important;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.ok {
+    color: aliceblue;
+    text-decoration: none;
+}
+#photger {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 4px 2px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+#HISTO {
+    height: 1199px;
+    width: 685px;
+}
+
+#batl {
+    height: 715px;
+}
+
+
+
+.g {
+    list-style: circle;
+}
+
+#vacation {
+    width: 1300px;
+    height: 1863px;
+    /*full screen problem*/
+}
+
+#harcol {
+    height: 506px;
+    width: 1015px;
+}
+
+
+
+#button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 4px 2px;
+    background-color: #4CAF50;
+    border: none;
+    color: white !important;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#pho {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#h1in {
+    font-style: italic;
+    font-family: fantasy;
+}
+
+#armisstrong {
+    height: 500px;
+    width: 500pxpx;
+}
+
+#ste {
+    height: 500px;
+    width: 500px;
+}
+
+.iUQgc:hover {
+    border: 1px solid grey;
+    box-shadow: rgb(220 220 220) 0px 3px 6px;
+    cursor: pointer;
+}
+
+.iUQgc {
+    border-radius: 2rem;
+    color: rgb(44, 112, 112);
+    border: 1px solid lightgray;
+    font-family: raleway;
+    font-size: 1rem;
+    padding: 0.45rem 1.6rem;
+    transition: all 0.15s ease-in-out 0s;
+}
+
+
+
+
+#o {
+    font-synthesis: style;
+    font-kerning: normal;
+    font-variant-caps: petite-caps /*petite-caps*/ /*all-petite-caps*/;
+    font-family: Raleway, 'Lato';
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid [#AAAAAA]; /*👈 Code For No Border. Just For Fun!*/
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.type {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+.type:last-child {
+  border-right: none;
+}
+
+.type a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.type a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+#contact {
+    background: firebrick;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: whitesmoke;
+    text-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+}
+
+
+
